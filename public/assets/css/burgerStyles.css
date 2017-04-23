@@ -1,0 +1,33 @@
+body, html{
+	height: 100%;
+	width: 100%;
+	background-color: orange;
+}
+
+h1{
+	font-family: sans-serif;
+	text-shadow: 0px 0px 8px orange;
+}
+
+#hero{
+
+  background-image: url('../images/burgar.jpg');
+  background-size: cover;
+
+}
+
+
+#content{
+	display: flex;
+}
+
+.tableBox{
+	color: white;
+	font-family: sans-serif;
+	flex:1;
+	background-color: grey;
+}
+
+.tableBox:nth-child(2){
+	background-color: black;
+}
