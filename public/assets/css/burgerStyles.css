@@ -12,11 +12,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d86c1e', end
 
 h1{
 	font-family: sans-serif;
-	text-shadow: 0px 0px 15px orange;
-	-webkit-text-stroke-width: 2px;
-   -webkit-text-stroke-color: brown;
+	text-shadow: 0px 0px 15px black;
 	font-family: myFirstFont;
+	font-weight: bolder;
 	font-size: 10vw;
+	color: black;
 
 }
 
@@ -48,7 +48,7 @@ h1{
 
 @font-face {
     font-family: myFirstFont;
-    src: url('../images/Daniel-Black.otf');
+    src: url('../images/what.ttf');
 }
 
 #hero{
